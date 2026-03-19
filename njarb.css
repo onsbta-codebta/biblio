@@ -53,33 +53,3 @@ button:hover {
 button:active {
   transform: scale(0.97);
 }
-
-@media (max-width: 768px) {
-
-  body {
-    justify-content: center; /* center form */
-    align-items: center;
-  }
-
-  .right {
-    width: 90%; /* take most of screen */
-    height: auto; /* no full height */
-    padding: 20px;
-    border-radius: 12px; /* normal corners */
-  }
-  .right h2 {
-  margin-top: 100px;
-}
-
-  h2 {
-    font-size: 20px;
-  }
-
-  p {
-    font-size: 14px;
-  }
-
-  input, button {
-    font-size: 16px; /* better for touch */
-  }
-}
